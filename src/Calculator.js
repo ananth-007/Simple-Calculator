@@ -124,6 +124,7 @@ const Calculator = () => {
     <Container className="mt-5">
       <Row className="justify-content-center">
         <Col xs={12} sm={8} md={6} lg={4}>
+          <h1 className="justify-content-center text-center">Simple Calculator</h1><br></br><br></br>
           <Card className="shadow">
             <Card.Body>
               <div className="mb-3 bg-light border">
