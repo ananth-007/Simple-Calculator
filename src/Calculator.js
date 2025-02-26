@@ -121,6 +121,7 @@ const Calculator = () => {
   };
 
   return (
+  <div className="bg-info-subtle min-vh-100 d-flex flex-column">
     <Container className="mt-5">
       <Row className="justify-content-center">
         <Col xs={12} sm={8} md={6} lg={4}>
@@ -218,6 +219,7 @@ const Calculator = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 }
 
